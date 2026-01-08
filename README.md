@@ -3,6 +3,6 @@ Hello,
 <br>
 It's me uttam kumar
 <br>
-I am a beginner in programming and I am trying to solve a problem using the C language. 
+I am a computer Science Engineer and I am trying to solve a problem using the java language using Oops concepts . 
 <br>
 Thanks for visit my repo.

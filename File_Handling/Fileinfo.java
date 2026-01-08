@@ -1,3 +1,5 @@
+//------------------------------------------------Code with Er. Uttam Kumar-------------------------------------------------------------//
+import java.io.File;
 class Fileinfo {
    public static void main(String[] args) {
       File f = new File("c:\\Users\\uttam\\OneDrive\\Desktop\\createfile.txt");

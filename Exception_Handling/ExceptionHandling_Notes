@@ -1,0 +1,27 @@
+//-------------------------------------------------------------code with Er. uttam kumar----------------------------------------
+//-----------------------------------------------------------------Exception Handing----------------------------------------------
+#. Exception Handling  : ==>
+
+exception handling is a mechanism in Java used to handle runtime errors (like dividing by zero, accessing invalid array index, file not found, etc.) so that the program does not crash suddenly.
+Instead of stopping the program, Java allows you to catch the error and handle it gracefully.
+
+Why : ==> 
+
+1. To prevent program crash
+2. To handle unexpected situations
+3. To provide alternative solutions
+4. To display user-friendly messages
+
+Keywords : ==>
+1. try : Block where you write code that may cause an exception.
+2. catch : Block that handles the exception thrown by the try block. (mutiple catch blocks allows handling different exceptions.)
+3. finally : Block that always executes after try and catch, used for cleanup code.
+4. throw:  Used to manually throw an exception.
+5. throws: Used in method declaration to indicate that method may throw an exception.
+
+
+#. Type of errors : ==>
+
+1. compile time error : ==> Errors detected by the compiler during code compilation (syntax errors, type mismatches, etc.)
+2. logical error : ==> Errors in program logic that produce incorrect(results programmerfault, wrongcalculations,incorrectconditions, etc.)
+2. runtime error : ==> Errors that occur during program execution (division by zero, null pointer exceptions, etc.)

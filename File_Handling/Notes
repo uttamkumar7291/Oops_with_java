@@ -1,0 +1,39 @@
+
+File handling : File handling is the process of creating, reading, writing, and deleting files using a program. Java provides classes in the java.io and java.nio packages to work with files.
+
+
+==>Common File Classes in Java
+
+Class                     	Description
+File	                   Used  to create, delete or get information about a file
+FileReader	               Reads data from a file (character by character)
+FileWriter	               Writes data to a file
+BufferedReader	           Reads text efficient ly line by line
+BufferedWriter	           Writes text efficiently
+FileInputStream	           Reads  binary data
+FileOutputStream	       Writes  binary data
+
+Note :- In Java, file handling is mostly done using the methods of File, FileReader, FileWriter, BufferedReader, BufferedWriter, and Stream
+
+ ==>Streams in Java
+A Stream is a sequence of data.
+It is a continuous flow of data from one place to another (program ↔ file, file ↔ program)
+Streams make input/output (I/O) operations possible in Java.
+
+Types of Streams:
+[1.] Byte Streams (Binary Streams): Handle data in bytes (8 bits) and are used for binary data like images, audio, etc.
+==> Base Classes:
+1. InputStream → reads bytes
+2. OutputStream → writes bytes
+
+==> Common Byte Stream Classes:
+    Class	                       Purpose
+FileInputStream	            Reads bytes from a file
+FileOutputStream	        Writes bytes to a file
+BufferedInputStream	        Fast binary reading
+BufferedOutputStream	    Fast binary writing
+
+[2.] Character Streams: Handle data in characters (16 bits) and are used for text data.
+==> Base Classes: 
+2. output stream: Used to write data from the program to a destination (file, network, etc.)
+

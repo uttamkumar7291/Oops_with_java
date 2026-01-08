@@ -1,0 +1,33 @@
+//---------------------------------------------code with Er. uttam kumar-------------------------------------------------//
+//------------------------------------------------Java packages-----------------------------------------------------------//
+packages : A package in Java is a collection of related classes and interfaces grouped together.
+// It helps in organizing the code, avoiding name conflicts, and controlling access.
+#.if you are use packages:
+     1. Create a folder with the package name.
+     2. Write classes and methods inside that folder.
+     3. Use import statement to use those classes and methods in other files.
+     
+
+project_folder/  ------>> main project_folder (oops with uttam kumar)
+ ├── Com.java     ------------------------------------------------------>> use classes and methodes through import 
+ └── packagesJava/   ------------->>  packages folder
+      └── Hello.java -------->>    write classes and methods
+      
+
+Types of packages:=>    
+1. Built-in Packages : These are predefined packages provided by Java. Examples include java.lang, java.util, java.io, etc.
+2. User-defined Packages : These are packages created by the programmer.
+
+Note: decleare package ==>> package package_nameJava;
+Note: All classes of the package [import package_name.*;]
+  
+#.there are 2 main ways: => to access members of a package
+By creating an object → access via instance
+By inheritance (extends) → access via inherited members
+
+#.Advantagees of using packages:=>
+1. Code Organization	
+2. Name Conflict Avoidance	: Same class name in different packages No issue Because packages give unique identity.
+3. Reusability	
+4. Access Control	
+5. Maintenance

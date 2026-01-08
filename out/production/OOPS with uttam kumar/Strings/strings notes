@@ -1,0 +1,65 @@
+//-----------------------------------------------code with Er. uttam kumar--------------------------------------------
+//   String Notes
+String : 
+-->import Java.lang.String;
+
+1. A String in Java is a sequence of characters Arrys.
+2. Strings are objects of the String class, which belongs to the java.lang package.
+3. We can create a string directly by using double Single quotation in java ''.
+4. Immutable — methods return new String objects; original string does not change.
+
+Example : String s1 = 'Hello';
+          String s = 'Hello'; refereance  
+
+5. String is a final class, so we cannot extend it.
+
+#. There are two ways to create strings in Java:
+
+[1.] Using String Literals ==>
+
+      String s1 = 'Hello, World!';
+
+[2.] new String(...) constructors(Keyword) ==>  6 types   see in Strings/Strings.java file
+
+[3.] StringBuffer ==> A mutable (changeable) sequence of characters. Thread-safe (synchronized[]).
+
+// String Extraction in Java ======>>
+
+[1.] char ch = str.charAt(2): Used to extract one character from a specific index.
+[2.] s.toCharArray():  The string "Hello" was converted to a character array: ['H','e','l','l','o'].
+      Example :
+            String s = "Hello";
+            char[] arr = s.toCharArray();
+
+[3.] s.getChars(int srcBegin, int srcEnd, char[] dest, int destBegin)  Show getChars.java file.
+[4.] s.substring(int beginIndex): Returns a new string that is a substring of this string.
+      Example :
+            String s = "Hello, World!";
+            String sub = s.substring(7); // "World!"
+
+[5.] s.substring(int beginIndex, int endIndex): Returns a new string that is a substring of this string.
+      Example :
+            String s = "Hello, World!";
+            String sub = s.substring(0, 5); // "Hello"
+
+[6.] s.split(String regex): Splits this string around matches of the given regular expression.
+      Example :
+            String s = "apple,banana,cherry";
+            String[] fruits = s.split(","); // ["apple", "banana", "cherry"]
+[7.] s.length(): Returns the length of this string.
+      Example :
+            String s = "Hello";
+            int len = s.length(); // 5
+
+[8.] s.lowercase() and uppercase(): Converts all characters in the string to lower case or upper case.
+      Example :
+            String s = "Hello";
+            String lower = s.toLowerCase(); // "hello"
+            String upper = s.toUpperCase(); // "HELLO"
+[8.] s.getbytes(): Encodes this String into a sequence of bytes using the platform's default charset, storing the result into a new byte array.
+      Example :
+            String s = "Hello";
+            byte[] byteArray = s.getBytes(); // [72, 101, 108, 108, 111] (ASCII values)            
+
+
+     
